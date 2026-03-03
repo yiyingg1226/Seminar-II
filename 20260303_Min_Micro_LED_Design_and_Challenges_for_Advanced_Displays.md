@@ -1,7 +1,4 @@
----
-title: Mini/Micro LED Design and Challenges for Advanced Displays
 
----
 
 # Mini/Micro LED Design and Challenges for Advanced Displays
 *20260303 中正大學 葉志庭副教授*
