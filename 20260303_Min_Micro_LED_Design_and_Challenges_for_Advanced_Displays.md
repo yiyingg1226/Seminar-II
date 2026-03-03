@@ -12,26 +12,28 @@ title: Mini/Micro LED Design and Challenges for Advanced Displays
 ![IMG_1622](./IMAGE/IMG_1622.jpg)
 ## 介紹產業
 講師開始介紹甚麼是Mini LED以及Micro LED，主要差異為尺寸的大小
-
+![IMG_1624](./IMAGE/IMG_1624.jpg)
 介紹Pixels Per Inch(PPI)為同一個尺寸裡，像素的密度，以及介紹關於螢幕，4快32吋4K螢幕組起來就是一塊64吋8K螢幕，因此解析度不能當作購買螢幕的唯一標準。
-
+![IMG_1626](./IMAGE/IMG_1626.jpg)
 此圖片主要講述，LCD以及OLED的對比，目前OLED還無法取代LCD，是因為各有各的優點，講師有提到LCD的優點為便宜，OLED優點雖然更多，例如對比高，色飽和度高，但是螢幕尺寸做不大，因此應該依照需求，選擇適合的技術。
-
+![IMG_1627](./IMAGE/IMG_1627.jpg)
 此圖片主要講述，Micro LED主要有3大製程
 1. COC and Transfer，通常是30~60um之間
 2. Pick and Place，通常是50um以上
 3. P to P bonding，相對來說解析度高，通常是10um以下
 因此解析度以及尺寸不一樣會使用不同製程。
-
+![IMG_1630](./IMAGE/IMG_1630.jpg)
 此圖片講述，目前的顯示器為藍光+量子點所組成，提高良率以及清晰度。
-
+![IMG_1632](./IMAGE/IMG_1632.jpg)
 講述LCD技術弱點，從背光進來，經過層層遞減從原本的100%剩下4~6%
+![IMG_1635](./IMAGE/IMG_1635.jpg)
 ## 介紹講師的實驗室
 主要是LED利用愛心狀的結構設計，在同樣的光下，大大縮減一個區域內的LED，減少成本。
-
+![IMG_1641](./IMAGE/IMG_1641.jpg)
+![IMG_1663](./IMAGE/IMG_1663.jpg)
 講述提高對比度，從側面看螢幕才不會灰灰的。
-
+![IMG_1644](./IMAGE/IMG_1644.jpg)
 講述如何做出LED，並且分享經驗，n-GaN會比p-GaN先做是因為n-GaN要做的溫度需要900度，p-GaN則是600~700度，因此n-GaN需先做。
-
+![IMG_1652](./IMAGE/IMG_1652.jpg)
 ## 結尾
 這次的課程讓我學習到許多有關螢幕相關的知識，以及許多生活相關的知識，例如螢幕如何選購，以及抗藍光的鏡片，不是完全將藍光濾掉，使我受益良多。
