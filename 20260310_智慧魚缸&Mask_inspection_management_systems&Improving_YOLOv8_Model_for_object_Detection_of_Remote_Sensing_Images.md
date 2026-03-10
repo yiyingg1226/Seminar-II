@@ -1,14 +1,24 @@
 # 智慧魚缸&<br />Mask inspection management systems&<br />Improving YOLOv8 Model for object Detection of Remote Sensing Images
 *20260310 台中科技大學 陳永隆教授*
 ## 智慧魚缸
-創作背景：五專生希望能簡單並方便的管理魚缸。
+創作背景：五專生希望能簡單並方便的管理魚缸。<br />
 系統介紹：利用esp32作為主控板，搭配溫度、水質、光照度的相關Sensor，檢測整個魚缸的即時狀況。並且加上影像辨識，達到對於不同品種，不同的餵食方式。搭配餵食系統，進行定量的自動餵食。以及混濁度感測，當水質到一定的混濁度時，系統將會開啟過濾器。
+![335B499A-75CA-497B-BF2D-1AB7DA6A112E](./IMAGE/335B499A-75CA-497B-BF2D-1AB7DA6A112E.jpg)
+![55F065ED-5D59-450C-BFCC-7C266C994E09](./IMAGE/55F065ED-5D59-450C-BFCC-7C266C994E09.jpg)
+
+
 ## Mask inspection management systems
-創作背景：希望能及時辨識，當口罩從流水線出來時是否有瑕疵。
+創作背景：希望能及時辨識，當口罩從流水線出來時是否有瑕疵。<br />
+![0C79FBD9-2FD7-4090-8F14-8AEEA8B11A89](./IMAGE/0C79FBD9-2FD7-4090-8F14-8AEEA8B11A89.jpg)
+![AB44563A-343F-42CB-AD22-D1D12B70E6A4](./IMAGE/AB44563A-343F-42CB-AD22-D1D12B70E6A4.jpg)
+
 系統介紹：利用卷積神經網路(CNN)達到圖像分類的任務，利用圖像分類任務應用於產品瑕疵檢測，主要利用了三個方式：
 1. Image preprocessing with ResNet152V2(IP-ResNet152V2)
 1. Image preprocessing with InceptionV3(IP-InceptionV3)
 1. Image preprocessing with Xception(IP-Xception)
+![EE6C6EEB-D5AE-46BF-95C4-25A0C941D6FB](./IMAGE/EE6C6EEB-D5AE-46BF-95C4-25A0C941D6FB.jpg)
+
+
 基本上三種方式大同小異，利用預處理將圖片處理好，塞入別人做好的模型進行訓練，辨識出口罩是否有瑕疵，作者利用9種方法模型參數與執行時間分析，以下是他們的數值：
 
 | 方法 | 參數量(M)| 平均耗費時間(s) | 驗證集準確率(%) |
@@ -22,10 +32,12 @@
 | IP-ResNet152V2     | 58     | 0.055     | 96.67     |
 | IP-InceptionV3     | 21     | 0.047     | 97.56     |
 | IP-Xception     | 21     | 0.047     | 98.21     |
+![14CD444A-C473-46C1-A411-8317B15EDB92](./IMAGE/14CD444A-C473-46C1-A411-8317B15EDB92.jpg)
 
 從上述圖表可得知IP-Xception，較為適合做產品瑕疵檢測，耗費時間較低，且驗證集準確率較高。
 ## Improving YOLOv8 Model for object Detection of Remote Sensing Images
-創作背景：遙測技術的快速發展使我們能夠獲取大量高解析度的遙測影像。
+![8D753368-95D5-45DA-B28E-A2085978325C](./IMAGE/8D753368-95D5-45DA-B28E-A2085978325C.jpg)
+創作背景：遙測技術的快速發展使我們能夠獲取大量高解析度的遙測影像。<br />
 系統介紹：
 * Precision=正確預測正樣本的數量/預測為正樣本的數量
 * Recall=正確預測正樣本的數量/所有正樣本的數量
