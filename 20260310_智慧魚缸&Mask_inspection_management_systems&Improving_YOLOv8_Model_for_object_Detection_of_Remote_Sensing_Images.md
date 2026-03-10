@@ -16,6 +16,7 @@
 1. Image preprocessing with ResNet152V2(IP-ResNet152V2)
 1. Image preprocessing with InceptionV3(IP-InceptionV3)
 1. Image preprocessing with Xception(IP-Xception)
+
 ![EE6C6EEB-D5AE-46BF-95C4-25A0C941D6FB](./IMAGE/EE6C6EEB-D5AE-46BF-95C4-25A0C941D6FB.jpg)
 
 
@@ -32,10 +33,12 @@
 | IP-ResNet152V2     | 58     | 0.055     | 96.67     |
 | IP-InceptionV3     | 21     | 0.047     | 97.56     |
 | IP-Xception     | 21     | 0.047     | 98.21     |
+
 ![14CD444A-C473-46C1-A411-8317B15EDB92](./IMAGE/14CD444A-C473-46C1-A411-8317B15EDB92.jpg)
 
 從上述圖表可得知IP-Xception，較為適合做產品瑕疵檢測，耗費時間較低，且驗證集準確率較高。
 ## Improving YOLOv8 Model for object Detection of Remote Sensing Images
+
 ![8D753368-95D5-45DA-B28E-A2085978325C](./IMAGE/8D753368-95D5-45DA-B28E-A2085978325C.jpg)
 創作背景：遙測技術的快速發展使我們能夠獲取大量高解析度的遙測影像。<br />
 系統介紹：
